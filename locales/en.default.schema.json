@@ -2583,6 +2583,89 @@
         "name": "Multicolumn"
       }
     },
+    "team": {
+      "name": "Team",
+      "settings": {
+     
+        "pre_title": {
+          "label": "Pre Heading"
+        },
+        "title": {
+          "label": "Heading"
+        },
+        "sub_title": {
+          "label": "Sub Heading"
+        },
+        "columns_desktop": {
+          "label": "Number of columns on desktop"
+        },
+        "column_alignment": {
+          "label": "Column alignment",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          }
+        },
+        "background_style": {
+          "label": "Secondary background",
+          "options__1": {
+            "label": "None"
+          },
+          "options__2": {
+            "label": "Show as column background"
+          }
+        },
+        "button_label": {
+          "label": "Button label"
+        },
+        "button_link": {
+          "label": "Button link"
+        },
+        "header_mobile": {
+          "content": "Mobile Layout"
+        },
+        "columns_mobile": {
+          "label": "Number of columns on mobile",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
+        }
+      },
+      "blocks": {
+        "member": {
+          "name": "Member",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "title": {
+              "label": "Heading"
+            },
+            "text": {
+              "label": "Description"
+            },
+            "facebook_url": {
+              "label": "Facebook URL"
+            },
+            "instagram_url": {
+              "label": "Instagram URL"
+            }
+            ,
+            "twitter_url": {
+              "label": "Twitter URL"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "team"
+      }
+    },
     "newsletter": {
       "name": "Email signup",
       "settings": {
