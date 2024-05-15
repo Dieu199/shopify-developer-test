@@ -61,8 +61,21 @@
   border-radius: 20px;
 }
 
+.member-card .media,
 .member-card img {
   border-radius: 20px 20px 0 0;
+}
+
+.member-card .media {
+  overflow: hidden;
+}
+
+.member-card img {
+  transition: 0.4s all;
+}
+
+.member-card .media:hover img {
+  transform: scale(1.1);
 }
 
 .member-card__info {
